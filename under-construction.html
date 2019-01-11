@@ -1,0 +1,89 @@
+<DOCTYPE html>
+  <html>
+
+  <head>
+    <style>
+      body {
+        background: #222222;
+        font-family: "Helvetica Neue", "Helvetica", Arial, "Lucida   Grande", sans-serif;
+      }
+
+      h3 {
+        font-size: 1.5em;
+        font-weight: 100;
+        letter-spacing: 1em;
+        text-shadow: 0px 0px 20px 6EC3EC;
+        color: 6EC3EC;
+        display: inline-block;
+      }
+
+      h4 {
+        font-size: 15px;
+        font-weight: 100;
+        letter-spacing: 1em;
+        text-shadow: 0px 0px 20px 6EC3EC;
+        color: 6EC3EC;
+        display: inline-block;
+      }
+
+      .logo {
+        width: 10%;
+      }
+
+      .container {
+        font-size: 16px;
+        top: 50%;
+        left: 40%;
+        position: absolute;
+        color: FFFFFF;
+        text-align: center;
+      }
+
+      .bar {
+        height: .3em;
+        width: 30em;
+        border-radius: 10px;
+        background: transparent;
+        box-shadow: inset 0px 0px 8px rgba(50, 50, 50, 1);
+        overflow: hidden;
+        padding: 5px;
+      }
+
+      .progress {
+        height: inherit;
+        border-radius: inherit;
+        width: 0;
+        background-color: 6EC3EC;
+        animation: load 3s linear infinite;
+        animation-delay: 2s;
+      }
+
+      @keyframes load {
+        0% {
+          width: 0%;
+        }
+
+        50% {
+          width: 100%;
+        }
+
+        100% {
+          width: 0%;
+          float: right;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <h3>DOT ACADEMY</h3>
+      <div class="bar">
+        <div class="progress"></div>
+      </div>
+      <h4>COMING SOON</h4>
+    </div>
+  </body>
+
+  </html>
+</DOCTYPE>
